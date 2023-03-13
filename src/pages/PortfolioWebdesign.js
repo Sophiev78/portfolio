@@ -1,9 +1,7 @@
 import "../styles/PortfolioWebdesign.css";
-import oeuf from "../assets/portfolioWebdesign/oeuf_sans_le_coq-min.png";
-import restaurants from "../assets/portfolioWebdesign/restaurants-min.png";
-import macarons from "../assets/portfolioWebdesign/macarons-min.png";
 import crypto from "../assets/portfolioWebdesign/crypto-min.png";
 import prototype from "../assets/portfolioWebdesign/prototype-min.jpg";
+import montres from "../assets/portfolioWebdesign/montres-min.jpg";
 import avion from "../assets/portfolioWebdesign/avion_comp.mp4";
 import fleurs from "../assets/portfolioWebdesign/fleurs_comp.mp4";
 import sapin from "../assets/portfolioWebdesign/sapin_comp.mp4";
@@ -18,51 +16,44 @@ const PortfolioWebdesign = () => {
     const wireframeList= [
         {
             video: avion,
-            desc: "Illustrator - After Effects"
+            desc: "Motion avion Illustrator - After Effects"
         },
         {
             video: fleurs,
-            desc: "Illustrator - After Effects"
+            desc: "Motion fleurs Illustrator - After Effects"
         },
         {
             video: respiration,
-            desc: "After Effects (fortement inspiré de l'application Headspace)"
+            desc: "Motion bien-être After Effects (inspiré de l'application Headspace)"
         },
         {
             video: sapin,
-            desc: "After Effects"
-        },
-        {
-            image: oeuf,
-            desc: "Illustrator Abode XD"
-        },
-        {
-            image: macarons,
-            desc: "Illustrator Abode XD"
-        },
-        {
-            image: restaurants,
-            desc: "Abode XD"
+            desc: "Motion sapin After Effects"
         },
         {
             image:crypto,
-            desc: "Abode XD"
+            desc: "Maquette d'une application de crypto-monnaie Abode XD"
         },
         {
             image:prototype,
-            desc: " dessins & prototypage - Figma"
+            desc: " Maquette et prototypage d'une application pour les enfants Figma",
+        },
+        {
+            image:montres,
+            desc: " Maquette et prototypage d'un e-commerce de montres Photoshop - Figma"
         }
        
     ]
 
     return (
+        
         <div className="container portfolioDesign col-lg-6 text-center">
                         <Title value="Webdesign"/>
             <div className="medias">
                 {wireframeList.map(({video,image,desc},index)=>(
                     <div className={`media ${selected === index ? "":"d-none"}`} key={index}>
                         <video muted= "true" autoplay="true" loop src={video} width={800}/>
-                        <img src={image} width={800} />
+                        <img src={image} width={800} alt="" />
                         <p>{desc}</p>
                     </div>
                 ))}
@@ -75,7 +66,6 @@ const PortfolioWebdesign = () => {
                 <button className={`btn-caroussel ${selected === 4 ? "btn-active":""}`} onClick={()=>setSelected(4)}></button>
                 <button className={`btn-caroussel ${selected === 5 ? "btn-active":""}`} onClick={()=>setSelected(5)}></button>
                 <button className={`btn-caroussel ${selected === 6 ? "btn-active":""}`} onClick={()=>setSelected(6)}></button>
-                <button className={`btn-caroussel ${selected === 7 ? "btn-active":""}`} onClick={()=>setSelected(7)}></button>
             </div>
         </div>
     );

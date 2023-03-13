@@ -1,12 +1,12 @@
 .portfolioDesign h2{
-    color: var(--orange)
+    color: #000;
 }
 
 .medias p{
     font-weight: 800;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
-    color: var(--orange);
+    color: #000;
 }
 
 .medias img{
@@ -21,12 +21,12 @@
     height: 5vh;
     width: 5%;
     margin:1%;
-    border:1px solid var(--orange);
+    border:1px solid #000;
     margin-bottom: 20px;
 }
 
 .btn-active{
-    background: var(--orange);
+    background: #000;
 }
 
  @media screen  and (max-width:900px){

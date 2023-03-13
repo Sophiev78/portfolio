@@ -1,5 +1,5 @@
 import "../styles/Home.css";
-import profil from "../assets/profil_comp.mp4";
+import profil from "../assets/profil_ellipse_trait_comp.mp4";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsFillTelephoneFill,BsEnvelopeFill } from "react-icons/bs";
 import {motion} from "framer-motion";
