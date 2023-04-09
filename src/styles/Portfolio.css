@@ -1,0 +1,53 @@
+h1{
+    font-family: segoe-ui;
+    color:#FABE2C;
+}
+
+p{
+    font-family: segoe-ui;
+    font-size:2rem;
+}
+
+.EnConstruction{
+    background-color: red;
+}
+.contact{
+    color:#FABE2C;
+    font-size: 3rem;
+}
+
+.contact:hover{
+    color:#f9d57a;
+}
+
+.telechargement a{
+    color:#FABE2C;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: #000000;
+    margin:5px;
+    padding: 2%;
+    transition: all 0.3s ease-out;
+}
+
+.telechargement a:hover{
+    color:#000;
+    background-color: #FABE2C;
+}
+
+.grille{
+    margin:-15% auto;
+}
+
+.grille a{
+    filter: grayscale(1);
+    transition: all 0.3s ease-out;
+    transform: scale(1);
+    margin:5px;
+}
+
+.grille a:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}

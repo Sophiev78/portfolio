@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
 
-:root{
-  --orange: rgb(233, 117, 21);
-  --gradient-orange:linear-gradient(168deg, rgba(255,133,2,1) 33%, rgba(255,0,224,1) 100%);
-
-  --title-1:Nerko One;
+#root{
+  background-color: #0D1926;
 }
 
 body {
@@ -21,18 +18,4 @@ code {
     monospace;
 }
 
-/* composant Title avec son h2 */
-
-h2{
-  text-transform: uppercase;
-  color:#fff;
-  font-family: var(--title-1);
-  letter-spacing: 0.5rem;
-}
-@media  screen and (min-width:280px) and (max-width:991px) {
-
-  *{
-    overflow-x: hidden;
-    }
-}
 
