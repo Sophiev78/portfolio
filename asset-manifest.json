@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.baff3514.css",
-    "main.js": "/portfolio/static/js/main.b3590a0a.js",
+    "main.css": "/portfolio/static/css/main.45404db9.css",
+    "main.js": "/portfolio/static/js/main.be89fdd2.js",
     "static/media/respiration_comp.mp4": "/portfolio/static/media/respiration_comp.c257bd25c2be8a9e00ca.mp4",
     "static/media/book.pdf": "/portfolio/static/media/book.d475f6602959bc92b429.pdf",
+    "static/media/CV_sophieV_alternance.pdf": "/portfolio/static/media/CV_sophieV_alternance.ad8af453458dd0d68855.pdf",
     "static/media/avion_comp.mp4": "/portfolio/static/media/avion_comp.f5664710794be4280037.mp4",
-    "static/media/CV_sophieV_alternance_jaune.pdf": "/portfolio/static/media/CV_sophieV_alternance_jaune.fee5e867b35191645e43.pdf",
     "static/media/photo-profil.png": "/portfolio/static/media/photo-profil.93981a26de2c5a2d739b.png",
     "static/media/macarons.jpg": "/portfolio/static/media/macarons.efcd3b99144df511c0b3.jpg",
     "static/media/prestashop.png": "/portfolio/static/media/prestashop.e1f2f1e103f36e1b4df0.png",
@@ -25,11 +25,11 @@
     "static/media/illustrator.png": "/portfolio/static/media/illustrator.c8306d9279929e8b8cfe.png",
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.baff3514.css.map": "/portfolio/static/css/main.baff3514.css.map",
-    "main.b3590a0a.js.map": "/portfolio/static/js/main.b3590a0a.js.map"
+    "main.45404db9.css.map": "/portfolio/static/css/main.45404db9.css.map",
+    "main.be89fdd2.js.map": "/portfolio/static/js/main.be89fdd2.js.map"
   },
   "entrypoints": [
-    "static/css/main.baff3514.css",
-    "static/js/main.b3590a0a.js"
+    "static/css/main.45404db9.css",
+    "static/js/main.be89fdd2.js"
   ]
 }
