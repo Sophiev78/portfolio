@@ -8,17 +8,19 @@ p{
     font-size:2rem;
 }
 
-.EnConstruction{
-    background-color: red;
-}
+/* icones de contact */
+
 .contact{
     color:#FABE2C;
     font-size: 3rem;
+    transition: all 0.3s ease-in;
 }
 
 .contact:hover{
-    color:#f9d57a;
+    color:#000;
 }
+
+/* bouton CV et Book */
 
 .telechargement a{
     color:#FABE2C;
@@ -26,6 +28,7 @@ p{
     text-decoration: none;
     font-size: 1.5rem;
     background-color: #000000;
+    border-radius: 5%;
     margin:5px;
     padding: 2%;
     transition: all 0.3s ease-out;
@@ -36,18 +39,57 @@ p{
     background-color: #FABE2C;
 }
 
+/* Portfolio */
+
 .grille{
     margin:-15% auto;
 }
 
-.grille a{
-    filter: grayscale(1);
-    transition: all 0.3s ease-out;
-    transform: scale(1);
-    margin:5px;
+.liens_images{
+    position: relative;
 }
 
-.grille a:hover{
-    filter: grayscale(0);
-    transform: scale(1.1);
+/* mes liens images */
+
+.liens_images a{
+    width: 100%;
+}
+
+.liens_images a img{
+    margin:10px;
+    width: 100%;
+}
+
+/* Overlay */
+
+.overlay{
+    position: absolute;
+    top:10px;
+    left:20px;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    height: 93%;
+    background-color: #000000e9;
+    opacity: 1;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in;
+}
+
+.overlay p {
+    color:#fff;
+}
+
+.overlay:hover{
+    opacity: 0;
+    z-index: -1;
+}
+
+@media screen and ( max-width: 992px){
+    .overlay{
+        display: none;
+    }
 }

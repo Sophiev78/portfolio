@@ -1,3 +1,5 @@
+import Typewriter from 'typewriter-effect';
+import { Link } from 'react-router-dom';
 import '../styles/Portfolio.css';
 import CV from "../assets/docs/CV_sophieV_alternance_jaune.pdf";
 import Book from "../assets/docs/book.pdf";
@@ -27,19 +29,15 @@ import Respiration from "../assets/portfolio/respiration-min.jpg";
 import Prototypage from "../assets/portfolio/prototype_appli_enfant-min.jpg";
 import Sweet from "../assets/portfolio/sweet-min.jpg";
 import Montres from "../assets/portfolio/montres-min.jpg";
-import Crypto from "../assets/portfolio/crypto-min.jpg";
+import Macarons from "../assets/portfolio/macarons.jpg";
 
 
 
 
 const Portfolio = () => {
+
     return (
-        <div className='container header'>
-            <div className='EnConstruction text-light text-center'>
-                <span><FaTools/> </span>
-                Portfolio in progress
-                <span><FaTools/> </span>
-            </div>
+        <div className='container'>
             <div className='row mx-auto text-center'>
                 <div className='col-lg-6 mt-5'>
                     <img src={Profil} width={500} alt="photo_profil"/>
@@ -59,21 +57,64 @@ const Portfolio = () => {
             </div>
             <div className='text-center mx-auto mt-5 presentation'>
                 <img src={Presentation} className='col-sm-12 col-lg-8' alt="ma présentation"/>
-                <h1 className='mt-5'>Écouter, réflechir, concevoir</h1>
+                <h1 className='mt-5'>
+                    <Typewriter
+                        // onInit={(typewriter) => {
+
+                        //     typewriter.typeString('Écouter')
+                        //     .pauseFor(300)
+                        //     .deleteAll()
+                        //     .typeString('Penser')
+                        //     .pauseFor(300)
+                        //     .deleteAll()
+                        //     .typeString('Concevoir')
+                        //     .pauseFor(300)
+                        //     .deleteAll()
+                        //     .start();
+                            
+                        // }}
+
+                        options={{
+                            strings: ['Écouter', 'Penser','Concevoir','Optimiser'],
+                            delay:70,
+                            pauseFor:500,
+                            autoStart: true,
+                            loop: true,
+                          }}
+                    />
+                </h1>
                 <p className='text-light mx-auto mt-5 col-md-6'>
-                A l'écoute de mon environnement ,je puise mon inspiration dans celui-ci 
+                A l'écoute de mon environnement, je puise mon inspiration dans celui-ci 
                 afin de proposer de nouvelles idées créatives toujours plus innovantes et 
                 en adéquations avec votre besoin.</p>
             </div>
             <div className=' portfolio mt-5 text-center mx-auto'>
                 <img src={Titre_Portfolio} className='col-sm-12 col-lg-8' alt="mon portfolio"/>
-                <div className='grille mb-5 row justify-content-center'>
-                   <a href="" className='col-lg-3'><img src={Avion} width={300}/></a>
-                   <a href="" className='col-lg-3'><img src={Respiration} width={300}/></a>
-                   <a href="" className='col-lg-3'><img src={Prototypage}width={300}/></a>
-                   <a href="" className='col-lg-3'><img src={Montres} width={300}/></a>
-                   <a href="" className='col-lg-3'><img src={Crypto} width={300}/></a>
-                   <a href="" className='col-lg-3'><img src={Sweet} width={300}/></a>
+                <div className='grille mb-5 row'>
+                    <div className='liens_images col-lg-4'>
+                        <div className='overlay'><p>Motion avion<br/>After Effects</p></div>
+                        <Link to="/motionAvion"><img src={Avion} alt="image_avion"/></Link>
+                    </div>
+                    <div className='liens_images col-lg-4'>
+                        <div className='overlay'><p>Motion respiration<br/>After Effects</p></div>
+                        <Link to="/motionRespiration" target='blank'><img src={Respiration} alt="image_respiration_bien_etre"/></Link>
+                    </div>
+                    <div className='liens_images col-lg-4'>
+                        <div className='overlay'><p>Prototypage<br/>Figma</p></div>
+                        <a href="https://www.figma.com/file/yLhL3gAVpOa3x2AfITjf7b/learningKid?node-id=0%3A1&t=GpseM7tWi1teXNkQ-1" target='blank'><img src={Prototypage} alt="image_application_jeu_enfant"/></a>
+                    </div>
+                    <div  className='liens_images col-lg-4'>
+                        <div className='overlay'><p>Maquette e-commerce (en cours de production)<br/>Figma - Photoshop</p></div>
+                        <a href="" target='blank'><img src={Montres} alt="image_maquette_ecommerce"/></a>
+                    </div>
+                    <div className='liens_images col-lg-4'>
+                        <div className='overlay'><p>Site vitrine <br/> HTML-CSS-jQuery</p></div>
+                        <a href="https://sectorial-felt.000webhostapp.com/macarons/" target='blank'><img src={Macarons} alt="image_maquette_crytpomoannaie"/></a>
+                    </div>
+                    <div className='liens_images col-lg-4'>
+                        <div className='overlay'><p>Effet parallax<br/>jQuery</p></div>
+                        <a href="https://sectorial-felt.000webhostapp.com/sweety/" target='blank'><img src={Sweet} alt="image_parallax_donut"/></a>
+                    </div>
                 </div>
             </div>
             <div className='outils mt-5 text-center mx-auto'>
