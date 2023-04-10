@@ -1,7 +1,7 @@
 import Typewriter from 'typewriter-effect';
 import { Link } from 'react-router-dom';
 import '../styles/Portfolio.css';
-import CV from "../assets/docs/CV_sophieV_alternance_jaune.pdf";
+import CV from "../assets/docs/CV_sophieV_alternance.pdf";
 import Book from "../assets/docs/book.pdf";
 import Profil from "../assets/photo-profil.png";
 import Nom from "../assets/nom.png";
@@ -39,10 +39,10 @@ const Portfolio = () => {
     return (
         <div className='container'>
             <div className='row mx-auto text-center'>
-                <div className='col-lg-6 mt-5'>
+                <div className='photo col-lg-6 mt-5'>
                     <img src={Profil} width={500} alt="photo_profil"/>
                 </div>
-                <div className='col-lg-6 mt-5'>
+                <div className='nom col-lg-6 mt-5'>
                     <img src={Nom} width={500} alt="mon nom"/>
                     <div className='icones-contact row mt-5'>
                         <a className="col-sm-4 contact" href="https://www.linkedin.com/in/sophie-van-hese/" target="blank"><FaLinkedinIn/></a>
@@ -55,9 +55,9 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <div className='text-center mx-auto mt-5 presentation'>
-                <img src={Presentation} className='col-sm-12 col-lg-8' alt="ma présentation"/>
-                <h1 className='mt-5'>
+            <div className='presentation row mx-auto justify-content-center mt-5'>
+                <img src={Presentation} className='col-lg-8' alt="ma présentation"/>
+                <h1 className='text-center mt-5'>
                     <Typewriter
                         // onInit={(typewriter) => {
 
@@ -88,8 +88,8 @@ const Portfolio = () => {
                 afin de proposer de nouvelles idées créatives toujours plus innovantes et 
                 en adéquations avec votre besoin.</p>
             </div>
-            <div className=' portfolio mt-5 text-center mx-auto'>
-                <img src={Titre_Portfolio} className='col-sm-12 col-lg-8' alt="mon portfolio"/>
+            <div className='portfolio row mt-5 justify-content-center mx-auto'>
+                <img src={Titre_Portfolio} className='col-lg-8' alt="mon portfolio"/>
                 <div className='grille mb-5 row'>
                     <div className='liens_images col-lg-4'>
                         <div className='overlay'><p>Motion avion<br/>After Effects</p></div>
@@ -117,19 +117,19 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-            <div className='outils mt-5 text-center mx-auto'>
-                <img src={Outils} className='col-sm-12 col-lg-8' alt="mon portfolio"/>
-                <div className='row mt-5 justify-content-evenly'>
-                    <img className='col-sm-2 col-lg-1' src={Xd} alt="Adobe XD"/>
-                    <img className='col-sm-2 col-lg-1' src={Illustrator} alt="Illustrator"/>
-                    <img className='col-sm-2 col-lg-1' src={Photoshop} alt="Photoshop"/>
-                    <img className='col-sm-2 col-lg-1' src={After} alt="After"/>
-                    <img className='col-sm-2 col-lg-1' src={Figma} alt="Figma"/> 
+            <div className='outils row mt-5 justify-content-center mx-auto'>
+                <img src={Outils} className='col-lg-8' alt="mon portfolio"/>
+                <div className='icones_outils row mt-5 justify-content-evenly'>
+                    <img className='col-lg-1' src={Xd} alt="Adobe XD"/>
+                    <img className='col-lg-1' src={Illustrator} alt="Illustrator"/>
+                    <img className='col-lg-1' src={Photoshop} alt="Photoshop"/>
+                    <img className='col-lg-1' src={After} alt="After"/>
+                    <img className='col-lg-1' src={Figma} alt="Figma"/> 
                 </div>
             </div>
-            <div className='aussi mt-5 pb-5 text-center mx-auto'>
-                <img src={Aussi} className='col-sm-12 col-lg-8' alt="mon portfolio"/>
-                <div className='row mt-5 justify-content-evenly'>
+            <div className='aussi row mt-5 pb-5 justify-content-center mx-auto'>
+                <img src={Aussi} className='col-lg-8' alt="mon portfolio"/>
+                <div className='icones_aussi row mt-5 justify-content-evenly'>
                     <img className='col-sm-2 col-lg-1'src={Html} alt="icone-html"/>
                     <img className='col-sm-2 col-lg-1' src={Javascript} alt="icone_javascript"/>
                     <img className='col-sm-2 col-lg-1' src={Reactjs} alt="icone_react"/>
