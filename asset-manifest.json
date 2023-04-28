@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fc87c1dc.css",
-    "main.js": "/portfolio/static/js/main.a0c7bba7.js",
+    "main.css": "/portfolio/static/css/main.b7dd659c.css",
+    "main.js": "/portfolio/static/js/main.c861002a.js",
     "static/media/respiration_comp.mp4": "/portfolio/static/media/respiration_comp.c257bd25c2be8a9e00ca.mp4",
     "static/media/book.pdf": "/portfolio/static/media/book.d475f6602959bc92b429.pdf",
     "static/media/CV_sophieV_alternance.pdf": "/portfolio/static/media/CV_sophieV_alternance.ad8af453458dd0d68855.pdf",
     "static/media/avion_comp.mp4": "/portfolio/static/media/avion_comp.f5664710794be4280037.mp4",
     "static/media/ville_comp.mp4": "/portfolio/static/media/ville_comp.9a03aafec23f0b9c57d4.mp4",
     "static/media/photo-profil.png": "/portfolio/static/media/photo-profil.93981a26de2c5a2d739b.png",
+    "static/media/autoportrait.png": "/portfolio/static/media/autoportrait.bbddb289c8e78279a17f.png",
     "static/media/macarons.jpg": "/portfolio/static/media/macarons.efcd3b99144df511c0b3.jpg",
     "static/media/prestashop.png": "/portfolio/static/media/prestashop.e1f2f1e103f36e1b4df0.png",
     "static/media/prototype_appli_enfant-min.jpg": "/portfolio/static/media/prototype_appli_enfant-min.87068dc3217c54bfe924.jpg",
@@ -27,11 +28,11 @@
     "static/media/illustrator.png": "/portfolio/static/media/illustrator.c8306d9279929e8b8cfe.png",
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.fc87c1dc.css.map": "/portfolio/static/css/main.fc87c1dc.css.map",
-    "main.a0c7bba7.js.map": "/portfolio/static/js/main.a0c7bba7.js.map"
+    "main.b7dd659c.css.map": "/portfolio/static/css/main.b7dd659c.css.map",
+    "main.c861002a.js.map": "/portfolio/static/js/main.c861002a.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc87c1dc.css",
-    "static/js/main.a0c7bba7.js"
+    "static/css/main.b7dd659c.css",
+    "static/js/main.c861002a.js"
   ]
 }
