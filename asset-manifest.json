@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b7dd659c.css",
-    "main.js": "/portfolio/static/js/main.c861002a.js",
+    "main.css": "/portfolio/static/css/main.a6c71a9b.css",
+    "main.js": "/portfolio/static/js/main.4518ed87.js",
+    "static/media/projet-music-store.zip": "/portfolio/static/media/projet-music-store.915face0a06fae4acdf5.zip",
     "static/media/respiration_comp.mp4": "/portfolio/static/media/respiration_comp.c257bd25c2be8a9e00ca.mp4",
     "static/media/book.pdf": "/portfolio/static/media/book.d475f6602959bc92b429.pdf",
     "static/media/CV_sophieV_alternance.pdf": "/portfolio/static/media/CV_sophieV_alternance.ad8af453458dd0d68855.pdf",
     "static/media/avion_comp.mp4": "/portfolio/static/media/avion_comp.f5664710794be4280037.mp4",
     "static/media/ville_comp.mp4": "/portfolio/static/media/ville_comp.9a03aafec23f0b9c57d4.mp4",
     "static/media/photo-profil.png": "/portfolio/static/media/photo-profil.93981a26de2c5a2d739b.png",
-    "static/media/autoportrait.png": "/portfolio/static/media/autoportrait.bbddb289c8e78279a17f.png",
     "static/media/macarons.jpg": "/portfolio/static/media/macarons.efcd3b99144df511c0b3.jpg",
+    "static/media/music-store.jpg": "/portfolio/static/media/music-store.1ae1857744bc6c1dfdd4.jpg",
     "static/media/prestashop.png": "/portfolio/static/media/prestashop.e1f2f1e103f36e1b4df0.png",
     "static/media/prototype_appli_enfant-min.jpg": "/portfolio/static/media/prototype_appli_enfant-min.87068dc3217c54bfe924.jpg",
     "static/media/sweet-min.jpg": "/portfolio/static/media/sweet-min.56303a9c8dcfe6c3968f.jpg",
     "static/media/html-css.png": "/portfolio/static/media/html-css.3c61c0794f24ad3c67c0.png",
     "static/media/react.png": "/portfolio/static/media/react.3bf6fb4b18b1f904676d.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.2e459e87597e99e050b6.png",
+    "static/media/Belvindiere-min.jpg": "/portfolio/static/media/Belvindiere-min.7041a932aca7d4457adb.jpg",
+    "static/media/FermeMerisiers.jpg": "/portfolio/static/media/FermeMerisiers.bfdc1a611aca49f9d5bd.jpg",
     "static/media/montres-min.jpg": "/portfolio/static/media/montres-min.39ee906dee962fb0a935.jpg",
     "static/media/ville-min.jpg": "/portfolio/static/media/ville-min.c477b6b20a754164250f.jpg",
     "static/media/nom.png": "/portfolio/static/media/nom.9af4b6ef21e9ce1c59cc.png",
@@ -23,16 +26,17 @@
     "static/media/wordpress.png": "/portfolio/static/media/wordpress.11ed091523e3152b651f.png",
     "static/media/after.png": "/portfolio/static/media/after.cf5cd197db4c62d8a63d.png",
     "static/media/avion-min.jpg": "/portfolio/static/media/avion-min.077ceb7afc4390af1546.jpg",
+    "static/media/autoportrait_2.png": "/portfolio/static/media/autoportrait_2.9360347eb42728168f36.png",
     "static/media/figma.png": "/portfolio/static/media/figma.72fbc535ebe253a5dbc4.png",
     "static/media/photoshop.png": "/portfolio/static/media/photoshop.339f174c692e921a204a.png",
     "static/media/illustrator.png": "/portfolio/static/media/illustrator.c8306d9279929e8b8cfe.png",
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.b7dd659c.css.map": "/portfolio/static/css/main.b7dd659c.css.map",
-    "main.c861002a.js.map": "/portfolio/static/js/main.c861002a.js.map"
+    "main.a6c71a9b.css.map": "/portfolio/static/css/main.a6c71a9b.css.map",
+    "main.4518ed87.js.map": "/portfolio/static/js/main.4518ed87.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7dd659c.css",
-    "static/js/main.c861002a.js"
+    "static/css/main.a6c71a9b.css",
+    "static/js/main.4518ed87.js"
   ]
 }
