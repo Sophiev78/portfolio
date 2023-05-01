@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a6c71a9b.css",
+    "main.css": "/portfolio/static/css/main.b7dd659c.css",
     "main.js": "/portfolio/static/js/main.4518ed87.js",
     "static/media/projet-music-store.zip": "/portfolio/static/media/projet-music-store.915face0a06fae4acdf5.zip",
     "static/media/respiration_comp.mp4": "/portfolio/static/media/respiration_comp.c257bd25c2be8a9e00ca.mp4",
@@ -32,11 +32,11 @@
     "static/media/illustrator.png": "/portfolio/static/media/illustrator.c8306d9279929e8b8cfe.png",
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.a6c71a9b.css.map": "/portfolio/static/css/main.a6c71a9b.css.map",
+    "main.b7dd659c.css.map": "/portfolio/static/css/main.b7dd659c.css.map",
     "main.4518ed87.js.map": "/portfolio/static/js/main.4518ed87.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6c71a9b.css",
+    "static/css/main.b7dd659c.css",
     "static/js/main.4518ed87.js"
   ]
 }
