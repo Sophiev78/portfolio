@@ -96,7 +96,7 @@ const Portfolio = () => {
                 <div className='grille mb-5 row text-center'>
                     <div className='liens_images col-lg-4'>
                         <img src={Avion} alt="image_avion"/>
-                        <Link to="/motionAvion" target='blank'>
+                        <Link to="/motionAvion">
                             <div className='overlay'>
                                 <p>Motion avion<br/>After Effects</p>
                             </div>
@@ -104,7 +104,7 @@ const Portfolio = () => {
                     </div>
                     <div className='liens_images col-lg-4'>
                         <img src={Ville} alt="image_ville"/>
-                        <Link to="/motionVille" target='blank'>
+                        <Link to="/motionVille">
                             <div className='overlay'>
                                 <p>Motion city<br/>After Effects</p>
                             </div>
@@ -112,7 +112,7 @@ const Portfolio = () => {
                     </div>
                     <div className='liens_images col-lg-4'>
                         <img src={Respiration} alt="image_respiration_bien_etre"/>  
-                        <Link to="/motionRespiration" target='blank'>
+                        <Link to="/motionRespiration">
                             <div className='overlay'><p>Motion respiration<br/>After Effects</p></div>
                         </Link>
                     </div>
