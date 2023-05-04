@@ -4,6 +4,7 @@ import '../styles/Portfolio.css';
 import CV from "../assets/docs/CV_sophieV_alternance.pdf";
 import Book from "../assets/docs/book.pdf";
 import Profil from "../assets/photo-profil.png";
+import Autoportrait from "../assets/autoportrait_2.png";
 import Nom from "../assets/nom.png";
 import Presentation from "../assets/presentation.png";
 import Titre_Portfolio from "../assets/titre_portfolio.png";
@@ -23,27 +24,29 @@ import Wp from "../assets/wordpress.png";
 import Prestashop from "../assets/prestashop.png";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsFillTelephoneFill,BsEnvelopeFill } from "react-icons/bs";
-import { FaTools } from "react-icons/fa";
 import Avion from "../assets/portfolio/avion-min.jpg";
+import Ville from "../assets/portfolio/ville-min.jpg";
 import Respiration from "../assets/portfolio/respiration-min.jpg";
 import Prototypage from "../assets/portfolio/prototype_appli_enfant-min.jpg";
 import Sweet from "../assets/portfolio/sweet-min.jpg";
 import Montres from "../assets/portfolio/montres-min.jpg";
 import Macarons from "../assets/portfolio/macarons.jpg";
-
-
+import MusicStore from "../assets/portfolio/music-store.jpg";
+import Zip from "../assets/docs/projet-music-store.zip";
+import Belvindiere from "../assets/portfolio/Belvindiere-min.jpg";
+import Merisiers from "../assets/portfolio/FermeMerisiers.jpg";
 
 
 const Portfolio = () => {
-
+    
     return (
         <div className='container'>
             <div className='row mx-auto text-center'>
                 <div className='photo col-lg-6 mt-5'>
-                    <img src={Profil} width={500} alt="photo_profil"/>
+                    <img src={Autoportrait} width={500} alt="photo_profil"/>
                 </div>
                 <div className='nom col-lg-6 mt-5'>
-                    <img src={Nom} width={500} alt="mon nom"/>
+                    <img src={Nom} width={500} alt="nom et fonction"/>
                     <div className='icones-contact row mt-5'>
                         <a className="col-sm-4 contact" href="https://www.linkedin.com/in/sophie-van-hese/" target="blank"><FaLinkedinIn/></a>
                         <a className="col-sm-4 contact" href="tel:+33659887373"><BsFillTelephoneFill/></a>
@@ -90,30 +93,70 @@ const Portfolio = () => {
             </div>
             <div className='portfolio row mt-5 justify-content-center mx-auto'>
                 <img src={Titre_Portfolio} className='col-lg-8' alt="mon portfolio"/>
-                <div className='grille mb-5 row'>
+                <div className='grille mb-5 row text-center'>
                     <div className='liens_images col-lg-4'>
-                        <div className='overlay'><p>Motion avion<br/>After Effects</p></div>
-                        <Link to="/motionAvion"><img src={Avion} alt="image_avion"/></Link>
+                        <img src={Avion} alt="image_avion"/>
+                        <Link to="/motionAvion" target='blank'>
+                            <div className='overlay'>
+                                <p>Motion avion<br/>After Effects</p>
+                            </div>
+                        </Link>
                     </div>
                     <div className='liens_images col-lg-4'>
-                        <div className='overlay'><p>Motion respiration<br/>After Effects</p></div>
-                        <Link to="/motionRespiration" target='blank'><img src={Respiration} alt="image_respiration_bien_etre"/></Link>
+                        <img src={Ville} alt="image_ville"/>
+                        <Link to="/motionVille" target='blank'>
+                            <div className='overlay'>
+                                <p>Motion city<br/>After Effects</p>
+                            </div>
+                        </Link>
                     </div>
                     <div className='liens_images col-lg-4'>
-                        <div className='overlay'><p>Prototypage<br/>Figma</p></div>
-                        <a href="https://www.figma.com/file/yLhL3gAVpOa3x2AfITjf7b/learningKid?node-id=0%3A1&t=GpseM7tWi1teXNkQ-1" target='blank'><img src={Prototypage} alt="image_application_jeu_enfant"/></a>
+                        <img src={Respiration} alt="image_respiration_bien_etre"/>  
+                        <Link to="/motionRespiration" target='blank'>
+                            <div className='overlay'><p>Motion respiration<br/>After Effects</p></div>
+                        </Link>
+                    </div>
+                    <div className='liens_images col-lg-4'>
+                        <img src={Prototypage} alt="image_application_jeu_enfant"/>
+                        <a href="https://www.figma.com/file/yLhL3gAVpOa3x2AfITjf7b/learningKid?node-id=0%3A1&t=GpseM7tWi1teXNkQ-1" target='blank'>
+                            <div className='overlay'><p>Prototypage<br/>Figma</p></div>
+                        </a>
                     </div>
                     <div  className='liens_images col-lg-4'>
-                        <div className='overlay'><p>Maquette e-commerce (en cours de production)<br/>Figma - Photoshop</p></div>
-                        <a href="" target='blank'><img src={Montres} alt="image_maquette_ecommerce"/></a>
+                        <img src={Montres} alt="image_maquette_ecommerce"/>
+                        <a href="" target='blank'>
+                            <div className='overlay'><p>Maquette e-commerce (en cours de production)<br/>Figma - Photoshop</p></div>
+                        </a>
                     </div>
                     <div className='liens_images col-lg-4'>
-                        <div className='overlay'><p>Site vitrine <br/> HTML-CSS-jQuery</p></div>
-                        <a href="https://sectorial-felt.000webhostapp.com/macarons/" target='blank'><img src={Macarons} alt="image_maquette_crytpomoannaie"/></a>
+                        <img src={Macarons} alt="image_maquette_crytpomoannaie"/>
+                        <a href="https://sectorial-felt.000webhostapp.com/macarons/" target='blank'>
+                            <div className='overlay'><p>Site vitrine <br/> HTML-CSS-jQuery</p></div>
+                        </a>
                     </div>
                     <div className='liens_images col-lg-4'>
-                        <div className='overlay'><p>Effet parallax<br/>jQuery</p></div>
-                        <a href="https://sectorial-felt.000webhostapp.com/sweety/" target='blank'><img src={Sweet} alt="image_parallax_donut"/></a>
+                        <img src={Sweet} alt="image_parallax_donut"/>
+                        <a href="https://sectorial-felt.000webhostapp.com/sweety/" target='blank'>
+                            <div className='overlay'><p>Effet parallax<br/>jQuery</p></div>
+                        </a>
+                    </div>
+                    <div className='liens_images col-lg-4'>
+                        <img src={MusicStore} alt="site-php"/>
+                        <a href="" download={Zip}>
+                            <div className='overlay'><p>MusicStore<br/>PHP</p></div>
+                        </a>
+                    </div>
+                    <div className='liens_images col-lg-4'>
+                        <img src={Belvindiere} alt="wordpress"/>
+                        <a href="https://ferme-belvindiere.fr/" target='blank'>
+                            <div className='overlay'><p>Belvindiere<br/>Wordpress - Woocommerce</p></div>
+                        </a>
+                    </div>
+                    <div className='liens_images col-lg-4'>
+                        <img src={Merisiers} alt="image_parallax_donut"/>
+                        <a href="https://fermedesmerisiers.fr/bienvenue/" target='blank'>
+                            <div className='overlay'><p>Merisiers<br/>Wordpress - Woodmart</p></div>
+                        </a>
                     </div>
                 </div>
             </div>

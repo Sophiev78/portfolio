@@ -42,37 +42,31 @@ p{
 /* Portfolio */
 
 .grille{
-    margin:-15% auto;
+    margin-top:-50px;
 }
+
+/* images */
 
 .liens_images{
     position: relative;
 }
 
-/* mes liens images */
-
-.liens_images a{
-    width: 100%;
-}
-
-.liens_images a img{
+.liens_images img{
     margin:10px;
     width: 100%;
 }
 
 /* Overlay */
 
-.overlay{
+.liens_images .overlay{
     position: absolute;
     top:10px;
-    left:20px;
+    left:22px;
     right: 0;
     bottom: 0;
-    width: 95%;
+    width: 100%;
     height: 93%;
-    background-color: #000000e9;
-    opacity: 1;
-    z-index: 1;
+    background-color: #000000b0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,12 +79,14 @@ p{
 
 .overlay:hover{
     opacity: 0;
-    z-index: -1;
 }
 
 @media screen and ( min-width:220px) and (max-width: 992px){
     .photo img{
         width: 300px;
+    }
+    .nom img{
+        width: 320px;
     }
     .outils .icones_outils{
         width: 200px;
