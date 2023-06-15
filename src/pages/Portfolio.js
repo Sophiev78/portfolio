@@ -1,7 +1,7 @@
 import Typewriter from 'typewriter-effect';
 import { Link } from 'react-router-dom';
 import '../styles/Portfolio.css';
-import CV from "../assets/docs/CV_sophieV_alternance.pdf";
+import CV from "../assets/docs/CV_sophieV_alternance_CCI.pdf";
 import Book from "../assets/docs/book.pdf";
 import Profil from "../assets/photo-profil.png";
 import Autoportrait from "../assets/autoportrait_2.png";
@@ -22,12 +22,15 @@ import Php from "../assets/php.png";
 import Mysql from "../assets/mysql.png";
 import Wp from "../assets/wordpress.png";
 import Prestashop from "../assets/prestashop.png";
-import { FaLinkedinIn } from "react-icons/fa";
-import { BsFillTelephoneFill,BsEnvelopeFill } from "react-icons/bs";
+import { FaLinkedinIn,FaHtml5,FaCss3Alt,FaPhp} from "react-icons/fa";
+import { BsFillTelephoneFill,BsEnvelopeFill,BsFillBootstrapFill,BsWordpress } from "react-icons/bs";
+import {SiAdobeaftereffects, SiAdobephotoshop,SiJquery} from "react-icons/si";
+import {CgFigma} from "react-icons/cg"; 
 import Avion from "../assets/portfolio/avion-min.jpg";
 import Ville from "../assets/portfolio/ville-min.jpg";
 import Respiration from "../assets/portfolio/respiration-min.jpg";
 import Prototypage from "../assets/portfolio/prototype_appli_enfant-min.jpg";
+import Mode from "../assets/portfolio/mode-min.jpg";
 import Sweet from "../assets/portfolio/sweet-min.jpg";
 import Montres from "../assets/portfolio/montres-min.jpg";
 import Macarons from "../assets/portfolio/macarons.jpg";
@@ -98,7 +101,7 @@ const Portfolio = () => {
                         <img src={Avion} alt="image_avion"/>
                         <Link to="/motionAvion">
                             <div className='overlay'>
-                                <p>Motion avion<br/>After Effects</p>
+                                <p><SiAdobeaftereffects/></p>
                             </div>
                         </Link>
                     </div>
@@ -106,56 +109,64 @@ const Portfolio = () => {
                         <img src={Ville} alt="image_ville"/>
                         <Link to="/motionVille">
                             <div className='overlay'>
-                                <p>Motion city<br/>After Effects</p>
+                                <p><SiAdobeaftereffects/></p>
                             </div>
                         </Link>
                     </div>
                     <div className='liens_images col-lg-4'>
                         <img src={Respiration} alt="image_respiration_bien_etre"/>  
                         <Link to="/motionRespiration">
-                            <div className='overlay'><p>Motion respiration<br/>After Effects</p></div>
+                            <div className='overlay'>
+                                <p><SiAdobeaftereffects/></p>
+                            </div>
                         </Link>
                     </div>
                     <div className='liens_images col-lg-4'>
                         <img src={Prototypage} alt="image_application_jeu_enfant"/>
                         <a href="https://www.figma.com/file/yLhL3gAVpOa3x2AfITjf7b/learningKid?node-id=0%3A1&t=GpseM7tWi1teXNkQ-1" target='blank'>
-                            <div className='overlay'><p>Prototypage<br/>Figma</p></div>
+                            <div className='overlay'><p><CgFigma/></p></div>
                         </a>
                     </div>
                     <div  className='liens_images col-lg-4'>
                         <img src={Montres} alt="image_maquette_ecommerce"/>
-                        <a href="" target='blank'>
-                            <div className='overlay'><p>Maquette e-commerce (en cours de production)<br/>Figma - Photoshop</p></div>
+                        <a href="https://www.figma.com/file/nsqplHN5tyd1psqSqC87hu/montres?type=design&t=g5ioxC5bUiZqE11Z-0" target='blank'>
+                            <div className='overlay'><p><CgFigma/><SiAdobephotoshop/></p></div>
                         </a>
                     </div>
                     <div className='liens_images col-lg-4'>
-                        <img src={Macarons} alt="image_maquette_crytpomoannaie"/>
+                        <img src={Mode} alt="one_page_mode"/>
+                        <a href="https://sectorial-felt.000webhostapp.com/mode/" target='blank'>
+                            <div className='overlay'><p><FaHtml5/><FaCss3Alt/><SiJquery/></p></div>
+                        </a>
+                    </div>
+                    <div className='liens_images col-lg-4'>
+                        <img src={Macarons} alt="site_macarons"/>
                         <a href="https://sectorial-felt.000webhostapp.com/macarons/" target='blank'>
-                            <div className='overlay'><p>Site vitrine <br/> HTML-CSS-jQuery</p></div>
+                            <div className='overlay'><p><FaHtml5/><FaCss3Alt/><SiJquery/></p></div>
                         </a>
                     </div>
                     <div className='liens_images col-lg-4'>
                         <img src={Sweet} alt="image_parallax_donut"/>
                         <a href="https://sectorial-felt.000webhostapp.com/sweety/" target='blank'>
-                            <div className='overlay'><p>Effet parallax<br/>jQuery</p></div>
+                            <div className='overlay'><p><SiJquery/></p></div>
                         </a>
                     </div>
                     <div className='liens_images col-lg-4'>
                         <img src={MusicStore} alt="site-php"/>
                         <a href="" download={Zip}>
-                            <div className='overlay'><p>MusicStore<br/>PHP</p></div>
+                            <div className='overlay'><p><FaPhp/></p></div>
                         </a>
                     </div>
                     <div className='liens_images col-lg-4'>
                         <img src={Belvindiere} alt="wordpress"/>
                         <a href="https://ferme-belvindiere.fr/" target='blank'>
-                            <div className='overlay'><p>Belvindiere<br/>Wordpress - Woocommerce</p></div>
+                            <div className='overlay'><p><BsWordpress/></p></div>
                         </a>
                     </div>
                     <div className='liens_images col-lg-4'>
                         <img src={Merisiers} alt="image_parallax_donut"/>
                         <a href="https://fermedesmerisiers.fr/bienvenue/" target='blank'>
-                            <div className='overlay'><p>Merisiers<br/>Wordpress - Woodmart</p></div>
+                            <div className='overlay'><p><BsWordpress/></p></div>
                         </a>
                     </div>
                 </div>
