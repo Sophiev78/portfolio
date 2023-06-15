@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3a4717da.css",
-    "main.js": "/portfolio/static/js/main.f612aaa4.js",
+    "main.css": "/portfolio/static/css/main.07794d0a.css",
+    "main.js": "/portfolio/static/js/main.8fddd0d8.js",
     "static/media/projet-music-store.zip": "/portfolio/static/media/projet-music-store.915face0a06fae4acdf5.zip",
     "static/media/respiration_comp.mp4": "/portfolio/static/media/respiration_comp.c257bd25c2be8a9e00ca.mp4",
     "static/media/book.pdf": "/portfolio/static/media/book.d475f6602959bc92b429.pdf",
-    "static/media/CV_sophieV_alternance.pdf": "/portfolio/static/media/CV_sophieV_alternance.ad8af453458dd0d68855.pdf",
+    "static/media/CV_sophieV_alternance_CCI.pdf": "/portfolio/static/media/CV_sophieV_alternance_CCI.43fe3b894dc075eddd2e.pdf",
     "static/media/avion_comp.mp4": "/portfolio/static/media/avion_comp.f5664710794be4280037.mp4",
     "static/media/ville_comp.mp4": "/portfolio/static/media/ville_comp.9a03aafec23f0b9c57d4.mp4",
     "static/media/photo-profil.png": "/portfolio/static/media/photo-profil.93981a26de2c5a2d739b.png",
     "static/media/macarons.jpg": "/portfolio/static/media/macarons.efcd3b99144df511c0b3.jpg",
     "static/media/music-store.jpg": "/portfolio/static/media/music-store.1ae1857744bc6c1dfdd4.jpg",
     "static/media/prestashop.png": "/portfolio/static/media/prestashop.e1f2f1e103f36e1b4df0.png",
+    "static/media/mode-min.jpg": "/portfolio/static/media/mode-min.201a51fda6e690a00bb3.jpg",
     "static/media/prototype_appli_enfant-min.jpg": "/portfolio/static/media/prototype_appli_enfant-min.87068dc3217c54bfe924.jpg",
     "static/media/sweet-min.jpg": "/portfolio/static/media/sweet-min.56303a9c8dcfe6c3968f.jpg",
     "static/media/html-css.png": "/portfolio/static/media/html-css.3c61c0794f24ad3c67c0.png",
@@ -32,11 +33,11 @@
     "static/media/illustrator.png": "/portfolio/static/media/illustrator.c8306d9279929e8b8cfe.png",
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.3a4717da.css.map": "/portfolio/static/css/main.3a4717da.css.map",
-    "main.f612aaa4.js.map": "/portfolio/static/js/main.f612aaa4.js.map"
+    "main.07794d0a.css.map": "/portfolio/static/css/main.07794d0a.css.map",
+    "main.8fddd0d8.js.map": "/portfolio/static/js/main.8fddd0d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a4717da.css",
-    "static/js/main.f612aaa4.js"
+    "static/css/main.07794d0a.css",
+    "static/js/main.8fddd0d8.js"
   ]
 }
