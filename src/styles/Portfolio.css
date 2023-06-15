@@ -75,6 +75,7 @@ p{
 
 .overlay p {
     color:#fff;
+    font-size:3rem;
 }
 
 .overlay:hover{
