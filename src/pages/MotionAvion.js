@@ -3,11 +3,13 @@ import '../styles/Motion.css';
 
 const MotionAvion = () => {
     return (
-        <div className='motionVideo' id="avion">
+        <div className='motionVideo container' id="avion">
             <div className='row justify-content-start col-md-2 mb-5'>
                 <a href='/portfolio' type="button" class='button' id='btn_avion'>Retour</a>
             </div>
-            <video  muted= "true" autoplay="true" loop src={VideoAvion} width={800}/>
+            <div className='row justify-content-center'>
+                <video  muted= "true" autoplay="true" loop src={VideoAvion} width={800}/>
+            </div>
         </div>
     );
 };

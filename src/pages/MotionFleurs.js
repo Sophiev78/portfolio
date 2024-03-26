@@ -7,7 +7,9 @@ const MotionFleurs = () => {
             <div className='row justify-content-start col-md-2 mb-5'>
                 <a href='/portfolio' type="button" class='button' id='btn_flowers'>Retour</a>
             </div>
-            <video  muted= "true" autoplay="true" loop src={VideoFleurs} width={800}/>
+            <div className='row justify-content-center'>
+                <video  muted= "true" autoplay="true" loop src={VideoFleurs} width={800}/>
+            </div>
         </div>
     );
 };
