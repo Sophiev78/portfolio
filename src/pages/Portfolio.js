@@ -123,8 +123,8 @@ const Portfolio = () => {
                         <button type="button" class="btn col-md-2" onClick={()=>setToggle(4)}>Dessins</button>
                         <button type="button" class="btn col-md-2" onClick={()=>setToggle(5)}>Site web</button>
                     </div>
-                    <div className={`row mx-auto grid ${toggle === 1 ? "show" : "hide"}`}>
-                        <div className='styles_images  col-lg-4'>
+                    <div className={`row grid ${toggle === 1 ? "show" : "hide"}`}>
+                        <div className='styles_images col-lg-4'>
                             <img src={CreaArt} alt="mockup logo"/>
                                 <div className='overlay'>
                                     <p><SiAdobephotoshop/></p>
@@ -173,7 +173,7 @@ const Portfolio = () => {
                                 </div>
                         </div>
                     </div>
-                    <div className={`row mx-auto grid ${toggle === 2 ? "show" : "hide"}`}>
+                    <div className={`row grid ${toggle === 2 ? "show" : "hide"}`}>
                         <div className='styles_images col-lg-4'>
                             <img src={Avion} alt="image_avion"/>
                             <Link to="/motionAvion">
@@ -215,7 +215,7 @@ const Portfolio = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className={`row mx-auto grid ${toggle === 3 ? "show" : "hide"}`}>
+                    <div className={`row grid ${toggle === 3 ? "show" : "hide"}`}>
                         <div className='styles_images  col-lg-4'>
                             <img src={Juice} alt="mockup pub"/>
                                 <div className='overlay'>
@@ -243,7 +243,7 @@ const Portfolio = () => {
                                 </div>
                         </div>
                     </div>
-                    <div className={`row mx-auto grid ${toggle === 4 ? "show" : "hide"}`}>
+                    <div className={`row grid ${toggle === 4 ? "show" : "hide"}`}>
                         <div className='styles_images  col-lg-3'>
                             <img src={Mushroom} alt="mockup pub"/>
                                 <div className='overlay'>
@@ -294,7 +294,7 @@ const Portfolio = () => {
                                 <p>Tabelette graphique </p>
                         </div>
                     </div>
-                    <div className={`row mx-auto grid ${toggle === 5 ? "show" : "hide"}`}>
+                    <div className={`row grid ${toggle === 5 ? "show" : "hide"}`}>
                         <div className='styles_images col-lg-3'>
                             <img src={Belvindiere} alt="mockup pub"/>
                             <a href="https://ferme-belvindiere.fr/" target='blank'>

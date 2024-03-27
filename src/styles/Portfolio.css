@@ -128,7 +128,9 @@ p{
 }
 
 .grid{
-    background: rgb(242,223,210);
+    background: rgb(244, 235, 228);
+    padding: 20px;
+    margin-right: 20px;
 }
 
 /* styles images */
@@ -252,9 +254,6 @@ footer{
     .portfolio h2{
         background: url('../assets/surligne.png') no-repeat center;
         background-size: 100% auto;
-    }
-    .grid{
-        padding: 20px;
     }
     .outils{
         background: none;   
