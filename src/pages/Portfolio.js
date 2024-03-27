@@ -60,7 +60,7 @@ import {CgFigma} from "react-icons/cg";
 
 const Portfolio = () => {
 
-    const [toggle, setToggle]= useState(0);
+    const [toggle, setToggle]= useState(1);
 
     return (
         <div className='container-fluid'>
