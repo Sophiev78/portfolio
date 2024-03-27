@@ -3,7 +3,7 @@
     --policeP:"Franklin Gothic Medium";
     --black:"#000";
     --white:"#fff";
-    --ColorPink:"#eeaa92";
+    --ColorPink:"#cc9999";
     --ColorBrown:"#806f6";
 }
 
@@ -22,16 +22,16 @@ p{
 /* haut de page*/
 
 .top{
-    background:url("../assets/background.png") no-repeat bottom;
+    background:url("../assets/bg-top.png") no-repeat bottom;
     background-size: cover;
-    background-position-y: top ;
-    color:#806f63;
+    background-position: top;
+    color:#9f490c;
 }
 
 /* icones de contact */
 
 .contact{
-    color:#eeaa92;
+    color:#cc9999;
     font-size: 3rem;
     transition: all 0.3s ease-in;
 }
@@ -47,7 +47,7 @@ p{
     font-weight: bold;
     text-decoration: none;
     font-size: 1.5rem;
-    background-color: #eeaa92 ;
+    background-color: #AA8368;
     border-radius: 5%;
     margin:5px;
     padding: 2%;
@@ -75,12 +75,12 @@ p{
     background-size: 30% auto;
 }
 .presentation h3{
-    color:#eeaa92;
+    color:#CC9999;
 }
 
 
 .valeurs .valeur{
-    background-color: #eeaa92;
+    background-color: #caaa99;
     padding:20px;
     margin: 5px;
     border-radius: 15px;
@@ -108,7 +108,7 @@ p{
 }
 
 .btn{
-    background-color: #eeaa92;
+    background-color: #AA8368;
 }
 .btn:hover{
     background-color: #baa292;
@@ -128,10 +128,8 @@ p{
 }
 
 .grid{
-    background: url('../assets/bg_portfolio.jpg')no-repeat;
-    background-size: cover;
+    background: rgb(242,223,210);
 }
-
 
 /* styles images */
 
@@ -204,7 +202,7 @@ p{
 }
 
 footer{
-    background-color: #eeaa92;
+    background-color: #9f490c;
     color: white;
     text-align: center;
     padding: 20px;
@@ -215,6 +213,11 @@ footer{
 /* responsive */
 
 @media screen and ( min-width:220px) and (max-width: 992px){
+
+    .top{
+        background:url("../assets/bg-top.png") no-repeat top;
+        background-size: auto;
+    }
 
     .photo img{
         width: 300px;
@@ -233,18 +236,35 @@ footer{
     .overlay{
         display: none;
     }
+    .presentation{
+        background: none;
 
+    }
     .presentation h2{
         background: url('../assets/surligne.png') no-repeat center;
         background-size: 100% auto;
     }
+
+    .portfolio{
+        background: none;
+    }
+        
     .portfolio h2{
         background: url('../assets/surligne.png') no-repeat center;
         background-size: 100% auto;
     }
+    .grid{
+        padding: 20px;
+    }
+    .outils{
+        background: none;   
+     }
     .outils h2{
         background: url('../assets/surligne.png') no-repeat center;
         background-size: 100% auto;
+    }
+    .aussi{
+        background: none;
     }
     .aussi h2{
         background: url('../assets/surligne.png') no-repeat center;
