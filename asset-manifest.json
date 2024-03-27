@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.579fe0d7.css",
+    "main.css": "/portfolio/static/css/main.7b44dd36.css",
     "main.js": "/portfolio/static/js/main.08d7aa67.js",
     "static/media/bg-sapin.jpg": "/portfolio/static/media/bg-sapin.ced7124f8d1b5dab7753.jpg",
     "static/media/respiration_comp.mp4": "/portfolio/static/media/respiration_comp.c257bd25c2be8a9e00ca.mp4",
     "static/media/sapin_comp.mp4": "/portfolio/static/media/sapin_comp.f5b23f81296bf0232a69.mp4",
     "static/media/CV_Bachelor.pdf": "/portfolio/static/media/CV_Bachelor.38fcc4c11a926aeeac54.pdf",
-    "static/media/bg_portfolio.jpg": "/portfolio/static/media/bg_portfolio.017da4f9596d0b97079f.jpg",
     "static/media/bg-street.jpg": "/portfolio/static/media/bg-street.db7b2182207d54b77aaa.jpg",
     "static/media/avion_comp.mp4": "/portfolio/static/media/avion_comp.f5664710794be4280037.mp4",
     "static/media/oeuf.png": "/portfolio/static/media/oeuf.834540e544b33c33518a.png",
@@ -24,8 +23,8 @@
     "static/media/positive1.png": "/portfolio/static/media/positive1.ee9af3a78994725769d3.png",
     "static/media/rencontres.png": "/portfolio/static/media/rencontres.22b3d82fa028760b9229.png",
     "static/media/sv.png": "/portfolio/static/media/sv.6f0ccacdf8b2264367d7.png",
+    "static/media/bg-top.png": "/portfolio/static/media/bg-top.433cec078a530586d812.png",
     "static/media/ptis_pots.png": "/portfolio/static/media/ptis_pots.ad62cf38d49571415bef.png",
-    "static/media/background.png": "/portfolio/static/media/background.63f3721372d2d67afffd.png",
     "static/media/dessin_4.png": "/portfolio/static/media/dessin_4.4d4b4caa16e894695fd5.png",
     "static/media/city_2.png": "/portfolio/static/media/city_2.fdc31cc49faf42b84c9c.png",
     "static/media/champ2.png": "/portfolio/static/media/champ2.bdcf0e7ff426c8f99895.png",
@@ -53,11 +52,11 @@
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/flowers-min.jpg": "/portfolio/static/media/flowers-min.59db0ded3e2a90697db5.jpg",
     "index.html": "/portfolio/index.html",
-    "main.579fe0d7.css.map": "/portfolio/static/css/main.579fe0d7.css.map",
+    "main.7b44dd36.css.map": "/portfolio/static/css/main.7b44dd36.css.map",
     "main.08d7aa67.js.map": "/portfolio/static/js/main.08d7aa67.js.map"
   },
   "entrypoints": [
-    "static/css/main.579fe0d7.css",
+    "static/css/main.7b44dd36.css",
     "static/js/main.08d7aa67.js"
   ]
 }
