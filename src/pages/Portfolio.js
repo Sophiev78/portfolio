@@ -101,7 +101,7 @@ const Portfolio = () => {
                                 </p>
                             </div>
                             <div className='col-xs-12 col-md-3 valeur'>
-                                <h4> Le graphisme:</h4>
+                                <h4> Le graphisme</h4>
                                 <p>Les images parlent plus fort que les mots. Mon amour pour le graphisme me permets de créer des visuels
                                      attractifs.
                                 </p>
@@ -249,7 +249,7 @@ const Portfolio = () => {
                                 <div className='overlay'>
                                     <p><SiAdobephotoshop/></p>
                                 </div>
-                                <p>Tabelette graphique </p>
+                                <p>Tablette graphique </p>
                         </div>
                         <div className='styles_images  col-lg-3'>
                             <img src={City} alt="mockup pub"/>
@@ -270,14 +270,14 @@ const Portfolio = () => {
                             <div className='overlay'>
                                     <p><SiAdobeillustrator/></p>
                                 </div>
-                                <p>Tabelette graphique </p>
+                                <p>Tablette graphique </p>
                         </div>
                         <div className='styles_images  col-lg-3'>
                             <img src={Draw2} alt="mockup pub"/>
                             <div className='overlay'>
                                     <p><SiAdobeillustrator/></p>
                                 </div>
-                                <p>Tabelette graphique </p>
+                                <p>Tablette graphique </p>
                         </div>
                         <div className='styles_images  col-lg-3'>
                             <img src={Draw3} alt="mockup pub"/>
@@ -291,7 +291,7 @@ const Portfolio = () => {
                             <div className='overlay'>
                                     <p><SiAdobeillustrator/></p>
                                 </div>
-                                <p>Tabelette graphique </p>
+                                <p>Tablette graphique </p>
                         </div>
                     </div>
                     <div className={`row grid ${toggle === 5 ? "show" : "hide"}`}>
