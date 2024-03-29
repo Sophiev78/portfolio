@@ -256,14 +256,14 @@ const Portfolio = () => {
                             <div className='overlay'>
                                     <p><SiAdobeillustrator/></p>
                                 </div>
-                                <p>PC</p>
+                                <p>A la souris</p>
                         </div>
                         <div className='styles_images  col-lg-3'>
                             <img src={Bike} alt="mockup pub"/>
                             <div className='overlay'>
                                     <p><SiAdobeillustrator/></p>
                                 </div>
-                                <p>PC</p>
+                                <p>A la souris</p>
                         </div>
                         <div className='styles_images  col-lg-3'>
                             <img src={Draw1} alt="mockup pub"/>
@@ -353,7 +353,7 @@ const Portfolio = () => {
                 </div>
             </div>
             <footer>
-                © 2024 Sophie Van hese. Tous droits réservés
+                © 2024 Sophie Van Hese. Tous droits réservés
             </footer>
         </div>
     );
