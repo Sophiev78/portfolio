@@ -12,6 +12,12 @@ h1{
     font-weight: bold;
     color:var(--ColorBrown);
 }
+span{
+    font-family:cursive;
+    font-size: 3rem;
+    color:#cc9999;
+    letter-spacing: 0.4rem;
+}
 
 p{
     font-family:var(--policeP);
@@ -22,10 +28,11 @@ p{
 /* haut de page*/
 
 .top{
-    background:url("../assets/bg-top.png") no-repeat bottom;
-    background-size: cover;
-    background-position: top;
+    background:url("../assets/bg-top.jpg") no-repeat;
+    background-size: 100% auto ;
+    background-position: center;
     color:#9f490c;
+    height: 110vh;
 }
 
 /* icones de contact */
@@ -47,7 +54,7 @@ p{
     font-weight: bold;
     text-decoration: none;
     font-size: 1.5rem;
-    background-color: #AA8368;
+    background-color: #cc9999;
     border-radius: 5%;
     margin:5px;
     padding: 2%;
@@ -204,7 +211,7 @@ p{
 }
 
 footer{
-    background-color: #9f490c;
+    background-color: #cc9999;
     color: white;
     text-align: center;
     padding: 20px;
@@ -217,7 +224,7 @@ footer{
 @media screen and ( min-width:220px) and (max-width: 992px){
 
     .top{
-        background:url("../assets/bg-top.png") no-repeat top;
+        background:url("../assets/bg-top.jpg") no-repeat top;
         background-size: auto;
     }
 

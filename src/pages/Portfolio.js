@@ -5,8 +5,6 @@ import '../styles/Portfolio.css';
 
 import CV from "../assets/docs/CV_Bachelor.pdf";
 
-import Autoportrait from "../assets/dessin_autoportrait-rose.png";
-
 import CreaArt from "../assets/portfolio/logos/creaArt.png";
 import PtisPots from "../assets/portfolio/logos/ptis_pots.png";
 import Oeuf from "../assets/portfolio/logos/oeuf.png";
@@ -65,15 +63,12 @@ const Portfolio = () => {
     return (
         <div className='container-fluid'>
             <div className='row mx-auto text-center top p-2'>
-                <div className='photo col-lg-6 mt-5'>
-                    <img src={Autoportrait} width={500} alt="photo_profil"/>
-                </div>
                 <div className='nom col-lg-6 mt-5'>
-                    <h1> Sophie Van Hese, <br/>Webdesigner & Développeur WordPress</h1>
-                    <div className='icones-contact row mt-3'>
-                        <a className="col-sm-4 contact" href="https://www.linkedin.com/in/sophie-van-hese/" target="blank"><FaLinkedinIn/></a>
-                        <a className="col-sm-4 contact" href="tel:+33659887373"><BsFillTelephoneFill/></a>
-                        <a className="col-sm-4 contact" href="mailto:sophievh78@gmail.com"><BsEnvelopeFill/></a>
+                    <h1> <span>Sophie Van Hese</span><br/><br/>Designer UI - Graphiste <br/>& <br/>Conceptrice de site web</h1>
+                    <div className='icones-contact row justify-content-center mt-3'>
+                        <a className="col-sm-2 contact" href="https://www.linkedin.com/in/sophie-van-hese/" target="blank"><FaLinkedinIn/></a>
+                        <a className="col-sm-2 contact" href="tel:+33659887373"><BsFillTelephoneFill/></a>
+                        <a className="col-sm-2 contact" href="mailto:sophievh78@gmail.com"><BsEnvelopeFill/></a>
                     </div>
                     <div className='telechargement row mt-5 mx-auto justify-content-evenly'>
                         <a href={CV} download="" className='col-lg-4'>Télécharger CV</a>
