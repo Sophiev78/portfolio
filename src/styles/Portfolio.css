@@ -213,7 +213,6 @@ p{
 .formulaire{
     background: url('../assets/bg-contact.jpg') no-repeat center;
     background-size: 100% auto ;
-    background-attachment: fixed;
 }
 .formulaire h2{
     color:#806f63;

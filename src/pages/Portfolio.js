@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
+import emailjs from 'emailjs-com';
 import '../styles/Portfolio.css';
 
 import CV from "../assets/docs/CV_Bachelor.pdf";
@@ -65,6 +66,7 @@ const Portfolio = () => {
 
     const [formData, setFormData] = useState({
         name: '',
+        surname: '',
         email: '',
         message: ''
       });
@@ -75,6 +77,22 @@ const Portfolio = () => {
           ...formData,
           [name]: value
         });
+      };
+
+      const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.send('service_tq11e0o', 'template_djosvlo', formData, 'N1R8W7I4p6ja8JW_r')
+          .then((response) => {
+            // Réinitialiser le formulaire après l'envoi
+            setFormData({
+              name: '',
+              surname: '',
+              email: '',
+              message: ''
+            });
+          }, (error) => {
+            console.error('Erreur lors de l\'envoi de l\'e-mail', error);
+          });
       };
 
     return (
@@ -367,7 +385,7 @@ const Portfolio = () => {
             <div className='formulaire row mt-5 pb-5 justify-content-center mx-auto'>
                 <h2 className='text-center mb-5'> Contactez-moi</h2>
                 <div className='row mx-auto'>
-                    <form className='col-md-5'>
+                    <form className='col-md-5' onSubmit={sendEmail}>
                         <input type="text"id="name"name="name"value={formData.name}onChange={handleChange}placeholder='Nom'required/>
                         <input type="text"id="name"name="name"value={formData.name}onChange={handleChange}placeholder='Prénom'required/>
                         <input type="email"id="email"name="email"value={formData.email}onChange={handleChange}placeholder='E-mail'required/>
