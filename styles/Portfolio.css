@@ -1,0 +1,326 @@
+:root{
+    --PoliceH1:segoe-ui;
+    --policeP:"Franklin Gothic Medium";
+    --black:"#000";
+    --white:"#fff";
+    --ColorPink:"#cc9999";
+    --ColorBrown:"#806f6";
+}
+
+h1{
+    font-family: var(--PoliceH1);
+    font-weight: bold;
+    color:var(--ColorBrown);
+}
+span{
+    font-family:cursive;
+    font-size: 3rem;
+    color:#cc9999;
+    letter-spacing: 0.4rem;
+}
+
+p{
+    font-family:var(--policeP);
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* haut de page*/
+
+.top{
+    background:url("../assets/bg-top.jpg") no-repeat;
+    background-size: 100% auto ;
+    background-position: center;
+    color:#9f490c;
+    height: 110vh;
+}
+
+/* icones de contact */
+
+.contact{
+    color:#cc9999;
+    font-size: 3rem;
+    transition: all 0.3s ease-in;
+}
+
+.contact:hover{
+    color:#baa292;
+}
+
+/* bouton CV et Book */
+
+.telechargement a{
+    color:#fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: #cc9999;
+    border-radius: 5%;
+    margin:5px;
+    padding: 2%;
+    transition: all 0.3s ease-out;
+}
+
+.telechargement a:hover{
+    background-color: #baa292;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* Présentation*/
+
+.presentation{
+    background: url('../assets/pointilles.png')no-repeat top left;
+
+}
+
+.presentation h2{
+    color:#806f63;
+    font-family: var(--PoliceH1);
+    font-size: 3rem;
+    background: url('../assets/surligne.png') no-repeat center;
+    background-size: 30% auto;
+}
+.presentation h3{
+    color:#CC9999;
+}
+
+
+.valeurs .valeur{
+    background-color: #caaa99;
+    padding:20px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.valeurs .valeur h4{
+    overflow: hidden;
+    color:#fff;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* Portfolio */
+
+.portfolio{
+    background: url('../assets/pointilles.png')no-repeat top right;
+}
+
+.portfolio h2{
+    color:#806f63;
+    font-family: var(--PoliceH1);
+    font-size: 3rem;
+    background: url('../assets/surligne.png') no-repeat center;
+    background-size: 30% auto;
+}
+
+.btn{
+    background-color: #AA8368;
+}
+.btn:hover{
+    background-color: #baa292;
+}
+
+/* toggle */
+
+.show{
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+
+.grid{
+    background: rgb(244, 235, 228);
+    padding: 20px;
+    margin-right: 20px;
+}
+
+/* styles images */
+
+.styles_images{
+    position: relative;
+}
+
+.styles_images img{
+    margin:10px;
+    width: 100%;
+}
+
+/* Overlay*/
+
+.styles_images .overlay{
+    position: absolute;
+    top:10px;
+    left:20px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 93%;
+    background-color: #000000b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in;
+}
+
+.overlay p {
+    color:#fff;
+    font-size:3rem;
+}
+
+.overlay:hover{
+    opacity: 0;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* outils */
+
+.outils{
+    background: url('../assets/pointilles.png')no-repeat top left;
+
+}
+
+.outils h2{
+    color:#806f63;
+    font-family: var(--PoliceH1);
+    font-size: 3rem;
+    background: url('../assets/surligne.png') no-repeat center;
+    background-size: 30% auto;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* aussi */
+
+.aussi{
+    background: url('../assets/pointilles.png')no-repeat top right;
+}
+
+.aussi h2{
+    color:#806f63;
+    font-family: var(--PoliceH1);
+    font-size: 3rem;
+    background: url('../assets/surligne.png') no-repeat center;
+    background-size: 30% auto;
+}
+
+.formulaire{
+    background: url('../assets/bg-contact.jpg') no-repeat center;
+    background-size: 100% auto ;
+}
+.formulaire h2{
+    color:#806f63;
+    font-family: var(--PoliceH1);
+    font-size: 3rem;
+    background: url('../assets/surligne.png') no-repeat center;
+    background-size: 30% auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #cc99995a;
+}
+
+input, textarea{
+ border: none;
+ border-bottom: 1px solid;
+ margin-top: 5px;
+ border-radius: 5px;
+ box-shadow: 1px 1px 10px #00000041;
+
+}
+input{
+    height: 4rem;
+}
+.submit{
+    border:none;
+    width: 50%;
+    height: 7vh;
+    margin: 10px auto;
+    background-color:#cc9999;
+    color:white;
+    border-radius: 10px;
+}
+
+.submit:hover{
+    background-color: #baa292;
+
+
+}
+
+footer{
+    background-color: #cc9999;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* responsive */
+
+@media screen and ( min-width:220px) and (max-width: 992px){
+
+    .top{
+        background:url("../assets/bg-top.jpg") no-repeat top;
+        background-size: auto;
+    }
+
+    .photo img{
+        width: 300px;
+    }
+    .nom img{
+        width: 320px;
+    }
+    .outils .icones_outils{
+        width: 150px;
+        margin:0 auto
+    }
+    .aussi .icones_aussi{
+        width: 150px;
+        margin:0 auto
+    }
+    .overlay{
+        display: none;
+    }
+    .presentation{
+        background: none;
+
+    }
+    .presentation h2{
+        background: url('../assets/surligne.png') no-repeat center;
+        background-size: 100% auto;
+    }
+
+    .portfolio{
+        background: none;
+    }
+        
+    .portfolio h2{
+        background: url('../assets/surligne.png') no-repeat center;
+        background-size: 100% auto;
+    }
+    .outils{
+        background: none;   
+     }
+    .outils h2{
+        background: url('../assets/surligne.png') no-repeat center;
+        background-size: 100% auto;
+    }
+    .aussi{
+        background: none;
+    }
+    .aussi h2{
+        background: url('../assets/surligne.png') no-repeat center;
+        background-size: 100% auto;
+    }
+}
