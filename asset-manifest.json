@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8de523ae.css",
-    "main.js": "/portfolio/static/js/main.4ec7b40c.js",
+    "main.css": "/portfolio/static/css/main.992a343d.css",
+    "main.js": "/portfolio/static/js/main.486926ad.js",
     "static/media/bg-sapin.jpg": "/portfolio/static/media/bg-sapin.ced7124f8d1b5dab7753.jpg",
     "static/media/respiration_comp.mp4": "/portfolio/static/media/respiration_comp.c257bd25c2be8a9e00ca.mp4",
     "static/media/sapin_comp.mp4": "/portfolio/static/media/sapin_comp.f5b23f81296bf0232a69.mp4",
@@ -15,7 +15,9 @@
     "static/media/epidelice.png": "/portfolio/static/media/epidelice.3424cd51e0ec6a492dc2.png",
     "static/media/canette.png": "/portfolio/static/media/canette.5871b0fdc258302f9502.png",
     "static/media/juice.png": "/portfolio/static/media/juice.b84e76fb80f80091b3ff.png",
+    "static/media/bg-top.jpg": "/portfolio/static/media/bg-top.72c4f7a64223e33a18a1.jpg",
     "static/media/packaging.png": "/portfolio/static/media/packaging.addc6c8a41771e388b96.png",
+    "static/media/bg-contact.jpg": "/portfolio/static/media/bg-contact.0f8b6d8b7306a9013cbd.jpg",
     "static/media/ekoti.png": "/portfolio/static/media/ekoti.5f49e33b01748136d95c.png",
     "static/media/kobukan.png": "/portfolio/static/media/kobukan.203b91c016dead7931d3.png",
     "static/media/givresorbet.png": "/portfolio/static/media/givresorbet.17996ad8e6435d949334.png",
@@ -23,7 +25,6 @@
     "static/media/positive1.png": "/portfolio/static/media/positive1.ee9af3a78994725769d3.png",
     "static/media/rencontres.png": "/portfolio/static/media/rencontres.22b3d82fa028760b9229.png",
     "static/media/sv.png": "/portfolio/static/media/sv.6f0ccacdf8b2264367d7.png",
-    "static/media/bg-top.png": "/portfolio/static/media/bg-top.433cec078a530586d812.png",
     "static/media/ptis_pots.png": "/portfolio/static/media/ptis_pots.ad62cf38d49571415bef.png",
     "static/media/dessin_4.png": "/portfolio/static/media/dessin_4.4d4b4caa16e894695fd5.png",
     "static/media/city_2.png": "/portfolio/static/media/city_2.fdc31cc49faf42b84c9c.png",
@@ -35,7 +36,6 @@
     "static/media/dessin_3.png": "/portfolio/static/media/dessin_3.6e25d522b3fa11c86216.png",
     "static/media/prestashop.png": "/portfolio/static/media/prestashop.e1f2f1e103f36e1b4df0.png",
     "static/media/html-css.png": "/portfolio/static/media/html-css.3c61c0794f24ad3c67c0.png",
-    "static/media/dessin_autoportrait-rose.png": "/portfolio/static/media/dessin_autoportrait-rose.191402c20d5eb7f2cdc7.png",
     "static/media/react.png": "/portfolio/static/media/react.3bf6fb4b18b1f904676d.png",
     "static/media/mysql.png": "/portfolio/static/media/mysql.2e459e87597e99e050b6.png",
     "static/media/Belvindiere-min.jpg": "/portfolio/static/media/Belvindiere-min.7041a932aca7d4457adb.jpg",
@@ -52,11 +52,11 @@
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/flowers-min.jpg": "/portfolio/static/media/flowers-min.59db0ded3e2a90697db5.jpg",
     "index.html": "/portfolio/index.html",
-    "main.8de523ae.css.map": "/portfolio/static/css/main.8de523ae.css.map",
-    "main.4ec7b40c.js.map": "/portfolio/static/js/main.4ec7b40c.js.map"
+    "main.992a343d.css.map": "/portfolio/static/css/main.992a343d.css.map",
+    "main.486926ad.js.map": "/portfolio/static/js/main.486926ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.8de523ae.css",
-    "static/js/main.4ec7b40c.js"
+    "static/css/main.992a343d.css",
+    "static/js/main.486926ad.js"
   ]
 }
