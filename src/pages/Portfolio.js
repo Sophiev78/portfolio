@@ -58,7 +58,24 @@ import {CgFigma} from "react-icons/cg";
 
 const Portfolio = () => {
 
+    /*onglets portfolio*/
     const [toggle, setToggle]= useState(1);
+
+    /* pour le formulaire */
+
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: ''
+      });
+      
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+          ...formData,
+          [name]: value
+        });
+      };
 
     return (
         <div className='container-fluid'>
@@ -337,14 +354,26 @@ const Portfolio = () => {
             </div>
             <div className='aussi row mt-5 pb-5 justify-content-center mx-auto'>
                 <h2 className='text-center mb-5'> Mes connaissances</h2>
-                <div className='icones_aussi row mt-5 justify-content-evenly'>
-                    <img className='col-sm-2 col-lg-1 m-1'src={Html} alt="icone-html"/>
-                    <img className='col-sm-2 col-lg-1 m-1' src={Javascript} alt="icone_javascript"/>
-                    <img className='col-sm-2 col-lg-1 m-1' src={Reactjs} alt="icone_react"/>
-                    <img className='col-sm-2 col-lg-1 m-1' src={Php} alt="icone-php"/>
-                    <img className='col-sm-2 col-lg-1 m-1' src={Mysql} alt="icone-mysql"/>
-                    <img className='col-sm-2 col-lg-1 m-1' src={Wp} alt="icone-wordpress"/>
-                    <img className='col-sm-2 col-lg-1 m-1' src={Prestashop} alt="icone-prestashop"/>
+                    <div className='icones_aussi row mt-5 justify-content-evenly'>
+                        <img className='col-sm-2 col-lg-1 m-1'src={Html} alt="icone-html"/>
+                        <img className='col-sm-2 col-lg-1 m-1' src={Javascript} alt="icone_javascript"/>
+                        <img className='col-sm-2 col-lg-1 m-1' src={Reactjs} alt="icone_react"/>
+                        <img className='col-sm-2 col-lg-1 m-1' src={Php} alt="icone-php"/>
+                        <img className='col-sm-2 col-lg-1 m-1' src={Mysql} alt="icone-mysql"/>
+                        <img className='col-sm-2 col-lg-1 m-1' src={Wp} alt="icone-wordpress"/>
+                        <img className='col-sm-2 col-lg-1 m-1' src={Prestashop} alt="icone-prestashop"/>
+                    </div>
+            </div>
+            <div className='formulaire row mt-5 pb-5 justify-content-center mx-auto'>
+                <h2 className='text-center mb-5'> Contactez-moi</h2>
+                <div className='row mx-auto'>
+                    <form className='col-md-5'>
+                        <input type="text"id="name"name="name"value={formData.name}onChange={handleChange}placeholder='Nom'required/>
+                        <input type="text"id="name"name="name"value={formData.name}onChange={handleChange}placeholder='Prénom'required/>
+                        <input type="email"id="email"name="email"value={formData.email}onChange={handleChange}placeholder='E-mail'required/>
+                        <textarea id="message" name="message"value={formData.message}onChange={handleChange}placeholder='Message'required rows={10}></textarea>
+                        <button className='submit' type="submit">Envoyer</button>
+                    </form>
                 </div>
             </div>
             <footer>

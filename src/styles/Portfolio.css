@@ -210,6 +210,54 @@ p{
     background-size: 30% auto;
 }
 
+.formulaire{
+    background: url('../assets/bg-contact.jpg') no-repeat center;
+    background-size: 100% auto ;
+    background-attachment: fixed;
+}
+.formulaire h2{
+    color:#806f63;
+    font-family: var(--PoliceH1);
+    font-size: 3rem;
+    background: url('../assets/surligne.png') no-repeat center;
+    background-size: 30% auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #cc99995a;
+}
+
+input, textarea{
+ border: none;
+ border-bottom: 1px solid;
+ margin-top: 5px;
+ border-radius: 5px;
+ box-shadow: 1px 1px 10px #00000041;
+
+}
+input{
+    height: 4rem;
+}
+.submit{
+    border:none;
+    width: 50%;
+    height: 7vh;
+    margin: 10px auto;
+    background-color:#cc9999;
+    color:white;
+    border-radius: 10px;
+}
+
+.submit:hover{
+    background-color: #baa292;
+
+
+}
+
 footer{
     background-color: #cc9999;
     color: white;
